@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.im85288.kodi" name="im85288 Kodi add-ons" version="1.0.0" provider-name="im85288">
+<addon id="repository.im85288.kodi" name="im85288 Kodi add-ons" version="1.0.1" provider-name="im85288">
     <extension point="xbmc.addon.repository" name="im85288 Kodi add-ons">
         <dir>
             <info compressed="false">https://im85288.github.io/kodi-repository/addons.xml</info>
@@ -9,8 +9,8 @@
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">SiloKodiConnect and the Skyline skin, kept up to date</summary>
-        <description lang="en_GB">Installs and updates SiloKodiConnect (Silo's movies and TV shows in Kodi's library) and the Skyline skin from their GitHub releases.</description>
+        <summary lang="en_GB">KodiConnectForSilo and the Skyline skin, kept up to date</summary>
+        <description lang="en_GB">Installs and updates KodiConnectForSilo (Silo's movies and TV shows in Kodi's library) and the Skyline skin from their GitHub releases.</description>
         <platform>all</platform>
         <license>GPL-2.0-or-later</license>
         <source>https://github.com/im85288/kodi-repository</source>

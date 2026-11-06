@@ -1,14 +1,14 @@
 # im85288 Kodi add-ons
 
-A Kodi repository for [SiloKodiConnect](https://github.com/im85288/SiloKodiConnect) and the
-[Skyline](https://github.com/im85288/SiloSkyline) skin. Kodi installs and updates both from here.
+A Kodi repository for [KodiConnectForSilo](https://github.com/im85288/KodiConnectForSilo) and the
+[Skyline](https://github.com/im85288/Skyline) skin. Kodi installs and updates both from here.
 
 ## Install
 
 1. Kodi: Settings > System > Add-ons: turn on **Unknown sources**.
 2. Settings > File manager > Add source: `https://im85288.github.io/kodi-repository/`.
 3. Add-ons > Install from zip file: that source, then `repository.im85288.kodi.zip`.
-4. Add-ons > Install from repository > im85288 Kodi add-ons: SiloKodiConnect, then Look and feel > Skin > Skyline.
+4. Add-ons > Install from repository > im85288 Kodi add-ons: KodiConnectForSilo, then Look and feel > Skin > Skyline.
 
 Add-ons installed from a zip before the repository: install them again from the repository (step 4),
 so Kodi updates them from here.

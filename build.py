@@ -21,8 +21,8 @@ import zipfile
 ROOT = os.path.dirname(os.path.abspath(__file__))
 REPOSITORY = 'repository.im85288.kodi'
 # The add-ons published, by their GitHub repository; each release carries <id>-<version>.zip.
-SOURCES = [('im85288/SiloKodiConnect', 'plugin.video.silokodiconnect'),
-           ('im85288/SiloSkyline', 'skin.silo.skyline')]
+SOURCES = [('im85288/KodiConnectForSilo', 'plugin.video.kodiconnectforsilo'),
+           ('im85288/Skyline', 'skin.silo.skyline')]
 
 
 def fetch(url, accept='application/vnd.github+json'):
