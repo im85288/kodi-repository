@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.im85288.kodi" name="im85288 Kodi add-ons" version="1.0.1" provider-name="im85288">
+<addon id="repository.im85288.kodi" name="im85288 Kodi add-ons" version="1.0.2" provider-name="im85288">
     <extension point="xbmc.addon.repository" name="im85288 Kodi add-ons">
         <dir>
-            <info compressed="false">https://im85288.github.io/kodi-repository/addons.xml</info>
-            <checksum>https://im85288.github.io/kodi-repository/addons.xml.md5</checksum>
-            <datadir zip="true">https://im85288.github.io/kodi-repository/zips/</datadir>
+            <info compressed="false">https://kodi.im85288.uk/addons.xml</info>
+            <checksum>https://kodi.im85288.uk/addons.xml.md5</checksum>
+            <datadir zip="true">https://kodi.im85288.uk/zips/</datadir>
             <hashes>sha256</hashes>
         </dir>
     </extension>
