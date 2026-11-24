@@ -16,12 +16,12 @@ permissions:
 concurrency:
   group: pages
   cancel-in-progress: false
+# Two jobs, as GitHub's Pages starter workflow: in one job, deploy-pages asked
+# for the site's artifact a third of a second after its upload and GitHub
+# often listed none yet ("No artifacts named github-pages", 2026-11-24).
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
     - uses: actions/checkout@v4
     - name: Build
@@ -32,5 +32,12 @@ jobs:
     - uses: actions/upload-pages-artifact@v3
       with:
         path: site
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
     - id: deploy
       uses: actions/deploy-pages@v4
